@@ -1,8 +1,9 @@
 #!/bin/bash
 
-cd ~/
-mkdir oldConfigs
-mv .bashrc oldConfigs/
+cd ~/.config
+test -d oldConfigs/ || mkdir oldConfigs
+cd ..
+mv .bashrc -config/oldConfigs/
 
 cd ~/dotfiles
 cp .bashrc ~/
