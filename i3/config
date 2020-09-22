@@ -18,6 +18,12 @@ bindsym $mod+x exec firefox
 # open ranger 
 bindsym $mod+m exec i3-sensible-terminal -e ranger
 
+# open discord  
+bindsym $mod+shift+d exec discord
+
+# open spotify
+bindsym $mod+shift+t exec spotify
+
 # kill focused window
 bindsym $mod+q kill
 
