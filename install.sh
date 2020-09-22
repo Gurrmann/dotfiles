@@ -11,8 +11,9 @@
 ~/dotfiles/scripts/setWallpaper.sh
 
 #installing font awesome
-#/scripts/fontInstaller.sh
+~/dotfiles/scripts/fontInstaller.sh
 
 
-#TODO add script that moves everything where it needs be
+#Moving files where they belong
+#~/dotfiles/scripts/moveConfigsWhereTheyBelong.sh
 
