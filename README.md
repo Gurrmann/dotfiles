@@ -1,10 +1,7 @@
-WORK IN PROGRESS
+## BE AWARE
 
-TODO
+**The install.sh script is made primarily for fresh installs!**
 
-fix bashrc & bash_profile
-fix vimrc
-fix i3blocks config
-fix ranger config
+If you decide to run it all your dotfiles will be overwritten.
 
-and much more :D :D
+I would instead recommend to take the parts you like from the files and copy paste them in to your own!
