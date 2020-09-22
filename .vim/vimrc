@@ -1,0 +1,7 @@
+set number
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set path +=**
+set wildmenu
+set syntax
