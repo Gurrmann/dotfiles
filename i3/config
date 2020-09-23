@@ -12,6 +12,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 # open dmenu
 bindsym $mod+d exec dmenu_run
 
+#open htop
+bindsym $mod+shift+p exec i3-sensible-terminal -e htop
+
 # open firefox
 bindsym $mod+x exec firefox
 
