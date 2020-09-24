@@ -6,5 +6,7 @@ All old config files will be moved to the map oldConfigs located at ~/.config.
 
 I would instead recommend to take the parts you like from the files and copy paste them in to your own.
 
+You can also run the restore.sh script to bring back the old configfiles back to revert the install changes
+
 however if you do want to run it or just one of the scripts in scripts/
 make sure the directory has the path ~/dotfiles
