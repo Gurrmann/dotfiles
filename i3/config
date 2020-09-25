@@ -30,6 +30,9 @@ bindsym $mod+shift+t exec spotify
 # kill focused window
 bindsym $mod+q kill
 
+#lock the computer
+bindsym $mod+shift+x exec i3-sensible-terminal -e slock
+
 # change focus with either vim keys or arrow keys
 
 bindsym $mod+j focus left
