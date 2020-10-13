@@ -5,18 +5,18 @@
  
 
 #Installation of the packages needed for all configs and some other useful ones
-./~/dotfiles/scripts/packages.sh
+./packages.sh
 
 #downloading and setting the wallpaper
-./~/dotfiles/scripts/setWallpaper.sh
+./setWallpaper.sh
 
 #installing font awesome
-./~/dotfiles/scripts/fontInstaller.sh
+./fontInstaller.sh
 
 #allowing case insensitive autocompletion in bash
 echo set completion-ignore-case on | sudo tee -a /etc/inputrc
 
 
 #Moving files where they belong
-./~/dotfiles/scripts/moveConfigsWhereTheyBelong.sh
+./moveConfigsWhereTheyBelong.sh
 
