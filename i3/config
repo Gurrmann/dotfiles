@@ -153,7 +153,7 @@ set $ws9 "9"
 set $ws10 "10"
 
 # wallpaper
-exec_always feh --bg-scale /home/gustav/Pictures/Wallpapers/wallpaper.png
+exec_always feh --bg-fill /home/gustav/Pictures/Wallpapers/wallpaper.png
 
 #enable transparent windows
 exec compton 
