@@ -147,6 +147,8 @@ bindsym $mod+Control+2 move workspace to output HDMI-0
 bindsym $mod+Control+3 move workspace to output DP-4
 bindsym $mod+Control+4 move workspace to output DP-2
 
+exec ~/.screenlayout/desktop.sh
+
 # workspaces 
 set $ws1 "1"
 set $ws2 "2"
