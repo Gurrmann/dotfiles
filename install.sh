@@ -18,5 +18,5 @@ echo set completion-ignore-case on | sudo tee -a /etc/inputrc
 
 
 #Moving files where they belong
-#~/dotfiles/scripts/moveConfigsWhereTheyBelong.sh
+./~/dotfiles/scripts/moveConfigsWhereTheyBelong.sh
 
