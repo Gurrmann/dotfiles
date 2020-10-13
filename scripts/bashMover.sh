@@ -6,5 +6,5 @@ cd ..
 mv .bashrc .config/oldConfigs/
 mv .bash_aliases .config/oldConfigs/
 
-cd ~/dotfiles
+cd ~/dotfiles/bash
 cp .bash* ~/
