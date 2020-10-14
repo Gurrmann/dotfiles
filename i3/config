@@ -176,7 +176,7 @@ for_window [class=".*"] border pixel 1
 
 #window colors
 set $bg-color 	         #2f343f
-set $inactive-bg-color   #2f343f
+set $inactive-bg-color   #FFFFFF00 
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
