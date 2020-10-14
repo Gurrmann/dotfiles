@@ -141,7 +141,6 @@ bindsym $mod+Control+Up move workspace to output up
 bindsym $mod+Control+Down  move workspace to output down
 
 # desktopspecific keybindings, will always go to the specified monitors
-# your output may vary, check xrandr or arandr to see which monitor goes where
 bindsym $mod+Control+1 move workspace to output primary
 bindsym $mod+Control+2 move workspace to output HDMI-0
 bindsym $mod+Control+3 move workspace to output DP-4
@@ -172,7 +171,7 @@ gaps inner 15
 gaps outer 15
 
 # removing titlebar from windows
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 1
 
 
 #window colors
