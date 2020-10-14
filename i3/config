@@ -167,7 +167,12 @@ exec_always feh --bg-fill /home/gustav/Pictures/Wallpapers/wallpaper.png
 #enable transparent windows
 exec compton 
 
+# gap size
+gaps inner 15
+gaps outer 15
 
+# removing titlebar from windows
+for_window [class=".*"] border pixel 0
 
 
 #window colors
