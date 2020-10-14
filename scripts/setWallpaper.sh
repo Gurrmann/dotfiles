@@ -6,5 +6,5 @@ mv 'd8r99jv-99039cbc-d6ed-4eb4-9992-b461eaef0f58.png?token=eyJ0eXAiOiJKV1QiLCJhb
 
 cd ~/Pictures/
 mkdir -p Wallpapers
-cd ~/dotfiles
+cd ~/dotfiles/scripts
 mv wallpaper.png ~/Pictures/Wallpapers/
