@@ -18,7 +18,7 @@ echo set completion-ignore-case on | sudo tee -a /etc/inputrc
 
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
+git config --global core.editor "vim"
 
 #Moving files where they belong
 ./i3mover.sh
