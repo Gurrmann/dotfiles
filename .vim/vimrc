@@ -4,7 +4,6 @@ set softtabstop=4
 set expandtab
 set path +=**
 set wildmenu
-set smart indent
 set noswapfile
 
 syntax on
