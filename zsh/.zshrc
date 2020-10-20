@@ -68,3 +68,4 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias sdn="shutdown now" 
+alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove"
