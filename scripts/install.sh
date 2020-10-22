@@ -29,3 +29,4 @@ git config --global core.editor "vim"
 
 ./polybarMover.sh
 
+./vimMover.sh
