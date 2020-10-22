@@ -189,11 +189,11 @@ client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color       
 
 
 #statusbar
-
-bar {
-	position top
-	status_command i3blocks -c ~/.config/i3/i3blocks.conf 
-}
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#bar {
+#	position top
+#	status_command i3blocks -c ~/.config/i3/i3blocks.conf 
+#}
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
