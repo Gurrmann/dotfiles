@@ -104,13 +104,12 @@ label-indicator-underline = ${colors.secondary}
 
 [module/filesystem]
 type = internal/fs
-format-prefix = " "
 interval = 25
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #b744ce
 
 mount-0 = /
 
+label-mounted-underline = #b744ce
 label-mounted = %{F#00000}%{F-} %free%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
