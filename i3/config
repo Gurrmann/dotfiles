@@ -3,7 +3,6 @@
 font pango: Monospace Bold 11
 
 # Keybindings
-
 set $mod Mod4
 
 # open a terminal
