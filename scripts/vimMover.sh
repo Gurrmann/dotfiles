@@ -2,7 +2,7 @@
 
 cd ~/ 
 test -d oldConfigs/ || mkdir oldConfigs
-test -d .vim/ && cp -rf .vim/ oldConfigs
+test -d .vim/ && cp -rf .vim/ oldConfigs || mkdir .vim
 
 cd ~/dotfiles/
 cd .vim/
