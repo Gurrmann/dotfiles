@@ -13,6 +13,15 @@
 #installing font awesome
 ./fontInstaller.sh
 
+#Moving files where they belong
+./i3mover.sh
+
+./bashmover.sh
+
+./polybarMover.sh
+
+./vimMover.sh
+
 #allowing case insensitive autocompletion in bash
 echo set completion-ignore-case on | sudo tee -a /etc/inputrc
 
@@ -22,11 +31,3 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git config --global core.editor "vim"
 
-#Moving files where they belong
-./i3mover.sh
-
-./bashmover.sh
-
-./polybarMover.sh
-
-./vimMover.sh
