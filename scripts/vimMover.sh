@@ -2,8 +2,10 @@
 
 cd ~/ 
 test -d oldConfigs/ || mkdir oldConfigs
-test -d .vim/ && cp -rf .vim/ oldConfigs && rm -rf .vim/
+test -d .vim/ && cp -rf .vim/ oldConfigs && rm -rf .vim/ || mkdir .vim
 
 cd ~/dotfiles/
-cp -rf .vim/ ~/
+cd .vim/
+cp vimrc ~/.vim/
+cd ..
 cp -rf nvim/ ~/.config
