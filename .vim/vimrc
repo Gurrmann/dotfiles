@@ -16,6 +16,8 @@ filetype plugin indent on
 set backspace=indent,eol,start
 set hidden
 
+command! MakeTags !ctags -R .
+
 call plug#begin()
 
 Plug 'ghifarit53/tokyonight-vim'
