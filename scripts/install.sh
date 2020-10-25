@@ -7,9 +7,6 @@
 #Installation of the packages needed for all configs and some other useful ones
 ./packages.sh
 
-#downloading and setting the wallpaper
-./setWallpaper.sh
-
 #installing font awesome
 ./fontInstaller.sh
 
