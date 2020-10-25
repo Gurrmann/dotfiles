@@ -22,9 +22,13 @@
 #allowing case insensitive autocompletion in bash
 echo set completion-ignore-case on | sudo tee -a /etc/inputrc
 
+#installing vim plugin manager
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+#installing ohmyzsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+#adding vim as default editor in git
 git config --global core.editor "vim"
 
