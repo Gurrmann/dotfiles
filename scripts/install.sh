@@ -28,3 +28,14 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 #adding vim as default editor in git
 git config --global core.editor "vim"
 
+#touchpad settings
+sudo mkdir -p /etc/X11/xorg.conf.d && sudo tee <<'EOF' /etc/X11/xorg.conf.d/90-touchpad.conf 1> /dev/null
+Section "InputClass"
+        Identifier "touchpad"
+        MatchIsTouchpad "on"
+        Driver "libinput"
+        NaturalScrolling "on"
+        Option "Tapping" "on"
+EndSection
+
+EOF
