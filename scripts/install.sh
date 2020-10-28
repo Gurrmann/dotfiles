@@ -34,7 +34,7 @@ Section "InputClass"
         Identifier "touchpad"
         MatchIsTouchpad "on"
         Driver "libinput"
-        NaturalScrolling "on"
+        Option NaturalScrolling "on"
         Option "Tapping" "on"
 EndSection
 
