@@ -6,6 +6,6 @@ unzip fontawesome-free-5.14.0-web.zip
 cd fontawesome-free-5.14.0-web/webfonts/
 mkdir -p ~/.fonts
 mv *.ttf ~/.fonts
-cd ~/Dotfiles/scripts
+cd ~/dotfiles/scripts
 rm -rf fontawesome-free-5.14.0-web
 rm -rf fontawesome-free-5.14.0-web.zip
